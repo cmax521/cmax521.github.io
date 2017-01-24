@@ -1,1 +1,10 @@
 <h2>Welcome!</h2>
+<button onClick="click(1)">CLICK</button>  <span id="span">0</span>
+
+<script>
+clicks = 0;
+function click(number) {
+clicks = clicks + number;
+document.getElementById("span").innerHTML=clicks
+}
+</script>
